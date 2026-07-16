@@ -77,8 +77,6 @@ https://rent-management-system-as6t.onrender.com
 
 ---
 
----
-
 # 🔑 Demo Login Credentials
 
 To explore the live application, you can use the following demo account:
