@@ -77,6 +77,41 @@ https://rent-management-system-as6t.onrender.com
 
 ---
 
+---
+
+# 🔑 Demo Login Credentials
+
+To explore the live application, you can use the following demo account:
+
+### 👤 Admin Account
+
+**Username:** `karthiksetty`
+
+**Password:** `setty@123`
+
+### Steps to Access
+
+1. Open the live frontend application:
+   
+   https://rent-management-system-olive.vercel.app
+
+2. Enter the above credentials on the login page.
+
+3. Explore the complete property management dashboard including:
+
+   - Building Management
+   - Floor Management
+   - Room Management
+   - Tenant Management
+   - Rent Collection
+   - Billing Operations
+   - Dashboard Analytics
+
+> Note: This demo account provides access to the complete application workflow for evaluation purposes.
+
+---
+
+
 # 🚀 Problem Statement
 
 Managing rental properties manually often creates operational challenges such as:
