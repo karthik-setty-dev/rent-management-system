@@ -8,34 +8,80 @@ A full-stack property management platform built to simplify tenant administratio
 
 [![Frontend](https://img.shields.io/badge/Frontend-Live-success?style=for-the-badge)](https://rent-management-system-olive.vercel.app)
 [![Backend](https://img.shields.io/badge/Backend-Live-blue?style=for-the-badge)](https://rent-management-system-as6t.onrender.com)
-[![React](https://img.shields.io/badge/React-Frontend-61DAFB?style=for-the-badge\&logo=react\&logoColor=white)]()
-[![Node.js](https://img.shields.io/badge/Node.js-Backend-green?style=for-the-badge\&logo=node.js)]()
-[![Express](https://img.shields.io/badge/Express-API-black?style=for-the-badge\&logo=express)]()
-[![MySQL](https://img.shields.io/badge/MySQL-Database-blue?style=for-the-badge\&logo=mysql)]()
+[![React](https://img.shields.io/badge/React-Frontend-61DAFB?style=for-the-badge&logo=react&logoColor=white)]()
+[![Node.js](https://img.shields.io/badge/Node.js-Backend-green?style=for-the-badge&logo=node.js)]()
+[![Express](https://img.shields.io/badge/Express-API-black?style=for-the-badge&logo=express)]()
+[![MySQL](https://img.shields.io/badge/MySQL-Database-blue?style=for-the-badge&logo=mysql)]()
 
-### 🚀 Live Application
+<br/>
 
-**Frontend:** https://rent-management-system-olive.vercel.app
+## 🚀 Live Application
 
-**Backend API:** https://rent-management-system-as6t.onrender.com
+### Frontend
+https://rent-management-system-olive.vercel.app
+
+### Backend API
+https://rent-management-system-as6t.onrender.com
 
 </div>
 
 ---
 
-# 📌 Project Snapshot
+# 📌 Project Overview
 
-SettyRents is a modern full-stack property and rent management platform designed to digitize and streamline rental property operations.
+SettyRents is a modern full-stack property and rent management system designed to digitize and simplify rental property operations.
 
-The application enables administrators to manage buildings, floors, rooms, tenants, rent payments, billing records, and occupancy tracking through a centralized dashboard.
+The platform helps property owners and administrators efficiently manage buildings, floors, rooms, tenants, rent payments, billing records, and occupancy details through a centralized dashboard.
 
-Instead of relying on spreadsheets or manual bookkeeping, property managers can efficiently monitor and manage their entire rental ecosystem from a single application.
+Instead of depending on spreadsheets or manual records, SettyRents provides a complete digital workflow for managing rental operations.
 
-### Key Highlights
+---
 
-✅ Full Stack Architecture
+# 🔑 Demo Login Credentials
 
-✅ JWT Authentication & Authorization
+To explore the live application, use the following demo account:
+
+## 👤 Admin Account
+
+```
+Username: karthiksetty
+Password: setty@123
+```
+
+### How to Access
+
+1. Visit the live application:
+
+```
+https://rent-management-system-olive.vercel.app
+```
+
+2. Enter the above credentials.
+
+3. Explore the complete property management dashboard.
+
+### Available Modules
+
+✅ Dashboard Analytics  
+✅ Building Management  
+✅ Floor Management  
+✅ Room Management  
+✅ Tenant Management  
+✅ Rent Collection  
+✅ Billing Management  
+✅ Occupancy Tracking  
+
+> This demo account provides complete access to evaluate the application's features and workflow.
+
+---
+
+# 🌟 Key Highlights
+
+✅ Full Stack Application Architecture
+
+✅ JWT Based Authentication
+
+✅ Role Protected Routes
 
 ✅ Building Management
 
@@ -59,248 +105,226 @@ Instead of relying on spreadsheets or manual bookkeeping, property managers can 
 
 ---
 
-# 🌐 Live Deployments
+# 🌐 Deployment Details
 
-## Frontend Application
+## Frontend Deployment
 
-**Vercel Deployment**
+**Platform:** Vercel
 
+Live URL:
+
+```
 https://rent-management-system-olive.vercel.app
+```
 
 ---
 
-## Backend API
+## Backend Deployment
 
-**Render Deployment**
+**Platform:** Render
 
+API URL:
+
+```
 https://rent-management-system-as6t.onrender.com
+```
 
 ---
-
-# 🔑 Demo Login Credentials
-
-To explore the live application, you can use the following demo account:
-
-### 👤 Admin Account
-
-**Username:** `karthiksetty`
-
-**Password:** `setty@123`
-
-### Steps to Access
-
-1. Open the live frontend application:
-   
-   https://rent-management-system-olive.vercel.app
-
-2. Enter the above credentials on the login page.
-
-3. Explore the complete property management dashboard including:
-
-   - Building Management
-   - Floor Management
-   - Room Management
-   - Tenant Management
-   - Rent Collection
-   - Billing Operations
-   - Dashboard Analytics
-
-> Note: This demo account provides access to the complete application workflow for evaluation purposes.
-
----
-
 
 # 🚀 Problem Statement
 
-Managing rental properties manually often creates operational challenges such as:
+Managing rental properties manually creates multiple operational challenges:
 
-* Tenant record management difficulties
-* Rent payment tracking issues
-* Occupancy visibility limitations
-* Billing inconsistencies
-* Administrative inefficiencies
+- Difficulty maintaining tenant records
+- Manual rent tracking
+- Poor visibility of occupancy status
+- Billing management issues
+- Lack of centralized property information
 
-SettyRents solves these problems by providing a centralized platform that digitizes the complete property management workflow.
+SettyRents solves these challenges by providing a complete digital property management ecosystem.
 
 ---
 
 # 🏗️ System Architecture
 
-```text
-Frontend (React + Vercel)
-            │
-            ▼
-REST API (Node.js + Express + Render)
-            │
-            ▼
-MySQL Database
-            │
-            ▼
-Cloudinary Storage
+```
+                React Frontend
+                    |
+                    |
+                 REST API
+                    |
+                    |
+          Node.js + Express Backend
+                    |
+                    |
+              MySQL Database
+                    |
+                    |
+             Cloudinary Storage
 ```
 
-The platform follows a modern client-server architecture where the React frontend communicates with secured REST APIs while MySQL handles persistent data storage and Cloudinary manages image uploads.
+The application follows a modern client-server architecture where:
+
+- React manages the user interface
+- Express provides secure REST APIs
+- MySQL stores application data
+- Cloudinary manages cloud-based image storage
 
 ---
 
-# ✨ Core Features
+# ✨ Features
 
 ## 🔐 Authentication & Authorization
 
-A secure authentication layer protects application resources and administrative operations.
+Secure authentication system implemented using JWT.
 
 ### Features
 
-* JWT Authentication
-* Secure Login
-* Protected Routes
-* Session Persistence
-* Access Control
-* Password Security
+- User Login
+- JWT Token Authentication
+- Protected Routes
+- Session Management
+- Password Hashing
+- Secure API Access
 
 ---
 
-## 🏢 Building Management
+# 🏢 Building Management
 
-Administrators can manage multiple rental properties from a centralized dashboard.
-
-### Capabilities
-
-* Create Buildings
-* Edit Building Information
-* Delete Buildings
-* Building Overview
-* Occupancy Monitoring
-
----
-
-## 🏬 Floor Management
-
-Buildings can be organized into multiple floors for structured property administration.
+Administrators can manage multiple rental properties.
 
 ### Features
 
-* Add Floors
-* Update Floor Information
-* Building Mapping
-* Floor Organization
+- Add Buildings
+- Update Building Details
+- Delete Buildings
+- View Building Information
+- Monitor Property Overview
 
 ---
 
-## 🚪 Room Management
+# 🏬 Floor Management
 
-Room administration allows efficient allocation and monitoring of rental units.
+Organize properties using structured floor management.
 
 ### Features
 
-* Create Rooms
-* Manage Room Details
-* Track Occupancy Status
-* Monitor Vacancies
-* Room Availability Management
+- Create Floors
+- Update Floors
+- Map Floors with Buildings
+- Manage Floor Information
 
 ---
 
-## 👥 Tenant Management
+# 🚪 Room Management
 
-A dedicated tenant module helps maintain organized resident records.
+Efficient room allocation and tracking system.
 
 ### Features
 
-* Tenant Registration
-* Tenant Profiles
-* Contact Information Management
-* Room Allocation Mapping
-* Tenant Record Tracking
+- Add Rooms
+- Update Room Details
+- Track Availability
+- Monitor Occupied Rooms
+- Manage Vacancies
 
 ---
 
-## 💰 Rent Collection System
+# 👥 Tenant Management
 
-One of the primary business modules of the application.
+Maintain complete tenant records digitally.
 
 ### Features
 
-* Rent Entry Management
-* Payment Tracking
-* Collection Monitoring
-* Historical Payment Records
-* Outstanding Rent Tracking
+- Add Tenant Profiles
+- Store Tenant Information
+- Assign Rooms
+- Manage Tenant Records
+- Track Tenant Details
+
+---
+
+# 💰 Rent Collection Management
+
+Complete rent tracking workflow.
+
+### Features
+
+- Create Rent Entries
+- Track Payments
+- View Payment History
+- Monitor Outstanding Rent
+- Manage Monthly Collections
 
 ### Benefits
 
-* Improved Revenue Visibility
-* Better Financial Tracking
-* Reduced Manual Effort
+- Better Financial Visibility
+- Reduced Manual Tracking
+- Organized Rent Management
 
 ---
 
-## 🧾 Billing Management
+# 🧾 Billing Management
 
-The platform includes centralized billing capabilities.
+Centralized billing operations.
 
 ### Features
 
-* Bill Creation
-* Bill Updates
-* Bill Tracking
-* Payment Monitoring
-* Historical Billing Records
+- Create Bills
+- Update Bills
+- Track Payments
+- Maintain Billing History
 
 ---
 
-## 📊 Dashboard Analytics
+# 📊 Dashboard Analytics
 
-A centralized dashboard provides actionable business insights.
+A centralized dashboard provides important property insights.
 
-### Metrics
+### Dashboard Metrics
 
-* Total Buildings
-* Total Floors
-* Total Rooms
-* Occupied Rooms
-* Vacant Rooms
-* Tenant Statistics
-* Rent Collection Overview
+- Total Buildings
+- Total Floors
+- Total Rooms
+- Occupied Rooms
+- Vacant Rooms
+- Total Tenants
+- Rent Collection Overview
 
 ### Benefits
 
-* Operational Visibility
-* Faster Decision Making
-* Property Performance Monitoring
+- Faster Decision Making
+- Better Operational Visibility
+- Improved Property Monitoring
 
 ---
 
-## ☁️ Cloud Image Management
+# ☁️ Cloud Image Management
 
-Cloudinary integration enables secure image storage and management.
+Cloudinary integration enables efficient image handling.
 
 ### Features
 
-* Property Image Uploads
-* Tenant Profile Images
-* Cloud Storage Management
-* Optimized Asset Delivery
+- Property Image Upload
+- Tenant Profile Images
+- Secure Cloud Storage
+- Optimized Image Delivery
 
 ---
 
 # 🧠 Technical Challenges Solved
 
-This project involved solving multiple real-world business and engineering challenges.
+During development, multiple real-world engineering challenges were handled:
 
-### Engineering Challenges
-
-* Multi-Entity Relationship Management
-* Secure Authentication Workflows
-* REST API Development
-* Database Relationship Design
-* Property Hierarchy Modeling
-* Tenant-Room Mapping
-* Rent Collection Workflows
-* Billing Automation Logic
-* Dashboard Data Aggregation
-* Cloud Storage Integration
-* Production Deployment
+- Designing relational database structure
+- Managing multiple interconnected entities
+- Implementing authentication workflows
+- Creating secure REST APIs
+- Building tenant-room relationships
+- Managing rent workflows
+- Designing dashboard calculations
+- Integrating cloud storage
+- Deploying frontend and backend applications
 
 ---
 
@@ -308,152 +332,150 @@ This project involved solving multiple real-world business and engineering chall
 
 ## Frontend
 
-* React
-* React Router
-* JavaScript (ES6+)
-* CSS3
-* Axios
+- React.js
+- React Router
+- JavaScript ES6+
+- CSS3
+- Axios
 
 ## Backend
 
-* Node.js
-* Express.js
+- Node.js
+- Express.js
 
 ## Database
 
-* MySQL
-* Sequelize ORM
+- MySQL
+- Sequelize ORM
 
 ## Authentication
 
-* JWT Authentication
-* bcrypt Password Hashing
+- JWT Authentication
+- bcrypt Password Encryption
 
 ## Cloud Services
 
-* Cloudinary
-* Multer
+- Cloudinary
+- Multer
 
 ## Security
 
-* Helmet
-* Express Rate Limiting
-* Protected APIs
-* CORS Configuration
+- Helmet
+- Express Rate Limiting
+- CORS Configuration
+- Protected API Routes
 
 ## Deployment
 
-* Vercel (Frontend)
-* Render (Backend)
+- Vercel
+- Render
 
 ---
 
 # 📂 Project Structure
 
-```bash
+```
 rent-management-system
+
 │
-├── rent-management-frontend
+├── frontend
+│
 │   ├── components
 │   ├── pages
-│   │   ├── Dashboard
-│   │   ├── Buildings
-│   │   ├── Floors
-│   │   ├── Rooms
-│   │   ├── Tenants
-│   │   ├── RentEntry
-│   │   ├── Bills
-│   │   └── Login
+│   │
+│   │── Dashboard
+│   │── Buildings
+│   │── Floors
+│   │── Rooms
+│   │── Tenants
+│   │── RentEntry
+│   │── Bills
+│   │── Login
 │   │
 │   └── services
 │
-├── rent-management-backend
-│   ├── controllers
-│   ├── models
-│   ├── routes
-│   ├── middleware
-│   ├── config
-│   └── uploads
+│
+└── backend
+    │
+    ├── controllers
+    ├── models
+    ├── routes
+    ├── middleware
+    ├── config
+    └── uploads
 ```
 
 ---
 
-# 👨‍💻 My Contributions
+# 👨‍💻 Developer Contributions
 
-Designed and developed the complete application including:
+Developed the complete full-stack application including:
 
-* Frontend Architecture
-* Backend API Development
-* Database Design
-* Authentication System
-* Property Management Workflows
-* Tenant Management Module
-* Rent Collection Logic
-* Billing System
-* Dashboard Analytics
-* Cloudinary Integration
-* Production Deployment
-* Responsive User Interface
-
----
-
-# 📚 Key Learning Outcomes
-
-Through this project, I gained practical experience in:
-
-* Full Stack Development
-* REST API Design
-* Authentication & Authorization
-* Database Modeling
-* Sequelize ORM
-* Business Process Automation
-* Cloud Storage Integration
-* Dashboard Development
-* Deployment & Hosting
-* Production Application Architecture
+- Frontend Architecture
+- Responsive UI Development
+- Backend API Development
+- Database Design
+- Authentication System
+- Property Management Modules
+- Tenant Management Workflow
+- Rent Collection System
+- Billing Module
+- Dashboard Analytics
+- Cloudinary Integration
+- Production Deployment
 
 ---
 
-# ⭐ Why This Project Stands Out
+# 📚 Learning Outcomes
 
-Many portfolio projects focus on simple CRUD operations.
+This project provided practical experience in:
 
-SettyRents extends beyond basic CRUD by implementing a complete business management ecosystem that handles:
+- Full Stack Web Development
+- REST API Design
+- Authentication & Authorization
+- Database Modeling
+- Sequelize ORM
+- Business Workflow Automation
+- Cloud Storage Integration
+- Deployment Strategies
+- Production Application Architecture
 
-✔ Property Administration
+---
 
-✔ Tenant Management
+# ⭐ Why SettyRents Stands Out
 
-✔ Room Allocation
+Unlike basic CRUD applications, SettyRents demonstrates a complete business management workflow.
 
-✔ Rent Collection
+The project includes:
 
-✔ Billing Operations
+✔ Property Administration  
+✔ Tenant Management  
+✔ Room Allocation  
+✔ Rent Tracking  
+✔ Billing Operations  
+✔ Occupancy Monitoring  
+✔ Dashboard Analytics  
+✔ Secure Authentication  
+✔ Cloud Storage  
+✔ Production Deployment  
+✔ Full Stack Architecture  
 
-✔ Occupancy Tracking
-
-✔ Dashboard Analytics
-
-✔ Secure Authentication
-
-✔ Cloud Asset Management
-
-✔ Production Deployment
-
-✔ Full Stack Architecture
-
-This project demonstrates the ability to design, build, deploy, and maintain a real-world business application that solves practical operational challenges faced by property owners and rental management organizations.
+This project showcases the ability to design, develop, deploy, and maintain a real-world SaaS-style application that solves practical rental management problems.
 
 ---
 
 <div align="center">
 
-## 🚀 Live Application
-
-Frontend: https://rent-management-system-olive.vercel.app
-
-Backend: https://rent-management-system-as6t.onrender.com
+# 🚀 SettyRents
 
 ### Simplifying Property Management Through Technology 🏢
+
+Frontend:
+
+https://rent-management-system-olive.vercel.app
+
+Backend:
+
+https://rent-management-system-as6t.onrender.com
 
 </div>
